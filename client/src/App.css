@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+body {
+  margin: 0;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.card {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 14px;
+  padding: 24px;
+}
+
+button {
+  background: #6366f1;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+textarea, select {
+  width: 100%;
+  background: #020617;
+  border: 1px solid #334155;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
