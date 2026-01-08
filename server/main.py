@@ -29,7 +29,9 @@ def submit_review(payload: ReviewCreate):
     review_text = payload.review.strip() if payload.review else ""
     if review_text == "":
         prompt_review_text = "No written feedback provided."
-
+    else:
+        prompt_review_text = review_text
+        
     prompt = f"""
 You are an AI feedback system.
 
